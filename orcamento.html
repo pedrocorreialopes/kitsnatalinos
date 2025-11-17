@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orçamento • Glipearte</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      background: #fafafa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #6c63ff, #a389ff);
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      font-weight: 700;
+      color: #6c63ff;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      padding: 25px;
+      margin-bottom: 30px;
+      transition: .3s;
+      border: 1px solid #eaeaea;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    }
+
+    .card h2 { margin-bottom: 10px; color: #444; }
+
+    .price { color: #27ae60; font-weight: 700; }
+
+    .img-section {
+      width: 100%;
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    .img-section img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      margin-bottom: 15px;
+    }
+
+    details {
+      margin-top: 10px;
+      background: #f4f3ff;
+      padding: 12px 15px;
+      border-radius: 10px;
+      border-left: 4px solid #6c63ff;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 600;
+      color: #4b4b4b;
+    }
+
+    footer {
+      background: #6c63ff;
+      padding: 40px 20px;
+      color: #fff;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    footer p { opacity: .9; }
+
+    /* Bandeiras de pagamento */
+    .payments {
+      margin-top: 25px;
+    }
+
+    .payments img {
+      height: 40px;
+      margin: 0 8px;
+      vertical-align: middle;
+      filter: drop-shadow(0 0 4px rgba(0,0,0,0.25));
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      margin-top: 20px;
+      background: #6c63ff;
+      color: #fff;
+      border-radius: 50px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: .3s;
+    }
+
+    .btn:hover { background: #554bff; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Orçamento de Decoração Glipearte</h1>
+  <p>Locação de kits, painéis, cilindros, bandejas e muito mais para festas.</p>
+  <a class="btn" href="#kits">Ver Kits e Valores</a>
+</header>
+
+<div class="container" id="kits">
+
+ 
+
+  <h2 class="section-title">Capas para Mesa</h2>
+
+    <div class="card">
+    <p>Capa para mesa 70x70: <span class="price">R$ 60,00</span></p>
+    <p>Capa para duas mesas 70x140: <span class="price">R$ 75,00</span></p>
+  </div>
+
+  <h2 class="section-title">Kit Bronze</h2>
+
+  
+  <h2>Clique nas setinhas para ver os produtos de cada opção:</h2>
+
+  <div class="card">
+    <details>
+      <summary>Opção 1 — <span class="price">R$ 80,00</span></summary>
+      <p>1 painel 50cm, 1 jarro, 3 bandejas, 1 boleira, 1 display</p>
+    </details>
+
+    <details>
+      <summary>Opção 2 — <span class="price">R$ 130,00</span></summary>
+      <p>1 painel 50cm, 1 jarro, 4 bandejas, 1 boleira, 2 displays, 1 mini-arco de balões</p>
+    </details>
+
+    <details>
+      <summary>Opção 3 — <span class="price">R$ 200,00</span></summary>
+      <p>1 painel 50cm, 1 jarro, 4 bandejas, 1 boleira, 3 displays, 1 mini-arco com pisca-pisca e mesa cavalete ou ripada (verificar disponibilidade).</p>
+    </details>
+
+    <h3 style="margin-top:20px; color:#6c63ff">Opcionais:</h3>
+    <p>Tapete – <span class="price">R$ 20,00</span></p>
+    <p>Guirlanda de balão para mesa – <span class="price">R$ 50,00</span></p>
+    <p>Escadinha – <span class="price">R$ 20,00</span></p>
+  </div>
+
+  <h2 class="section-title">Kit Prata</h2>
+
+  
+  <div class="card">
+    <p><strong>Valor:</strong> <span class="price">R$ 250,00</span></p>
+    <p>1 painel redondo 1,20m, 3 cilindros, 1 jarro, 2 bandejas, 1 boleira, 1 boleira cake, 2 displays</p>
+    <h3 style="margin-top:20px; color:#6c63ff">Opcionais:</h3>
+    <p>Escadinha – <span class="price">R$ 70,00</span></p>
+    <p>Arco de balões – <span class="price">R$ 200,00</span></p>		
+  </div>
+
+  <h2 class="section-title">Kit Ouro</h2>
+
+   <div class="card">
+    <p><strong>Valor:</strong> <span class="price">R$ 350,00</span></p>
+    <p>1 painel redondo 1,20m, 1 painel retangular 1,50m x 2,20m, 3 cilindros, 1 jarro, 3 bandejas, 1 boleira, 1 tapete, 2 displays</p>
+
+    <h3 style="margin-top:20px; color:#6c63ff">Opcionais:</h3>
+    <p>Escadinha – <span class="price">R$ 70,00</span></p>
+    <p>Arco de balões – <span class="price">R$ 200,00</span></p>
+   </div>
+
+ 
+  <h2 class="section-title">Balões</h2>
+
+  <div class="card">
+    <p>Árvore de Natal – <span class="price">R$ 45,00</span></p>
+    <p>Box de Balão Ano Novo Estrela Dourada – <span class="price">R$ 45,00</span></p>
+    <p>Presente – <span class="price">R$ 15,00</span> cada</p>
+  </div>
+
+<footer>
+  <p>© 2025 Glipearte Decorações – Locação para festas</p>
+  <p>Entre em contato para reservar seu kit!</p>
+
+  <div class="payments">
+    <p>Formas de pagamento:</p>
+
+    <!-- Substitua os arquivos abaixo pelas suas próprias imagens -->
+    <img src="visa.png" alt="Visa">
+    <img src="mastercard.png" alt="Mastercard">
+    <img src="elo.png" alt="Elo">
+    <img src="amex.png" alt="American Express">
+    <img src="hipercard.png" alt="Hipercard">
+    <img src="pix.png" alt="Pix">
+  </div>
+</footer>
+
+</body>
+</html>
