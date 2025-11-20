@@ -48,6 +48,7 @@
     }
 
     .section {
+      background: transparent;
       max-width: 1100px;
       margin: 60px auto;
       text-align: center;
@@ -68,19 +69,12 @@
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 20px;
-      padding: 20px;
+      padding: 1px;
     }
 
     .gallery img {
+      background: transparent;
       width: 100%;
-      border-radius: 16px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-      transition: transform 0.3s ease;
-    }
-
-    .gallery img:hover {
-      transform: scale(1.05);
     }
 
     .cta {
